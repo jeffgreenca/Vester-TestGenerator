@@ -1,0 +1,5 @@
+Filename,TEMPLATE_TITLE,TEMPLATE_DESCRIPTION,TEMPLATE_CONFIG_ENTRY,TEMPLATE_CONFIG_DATATYPE,TEMPLATE_ADVANCEDSETTINGNAME
+VC-TaskMaxAge.Vester.ps1,TaskMaxAge,Age in days that Tasks will be retained in the vCenter Server Database,vcenter.TaskMaxAge,int,task.maxAge
+VC-TaskMaxAgeEnabled.Vester.ps1,TaskMaxAgeEnabled,Enables Task cleanup and enforces the max age defined in TaskMaxAge,vcenter.TaskMaxAgeEnabled,bool,task.maxAgeEnabled
+VC-EventMaxAge.Vester.ps1,EventMaxAge,Age in days that Events will be retained in the vCenter Server Database,vcenter.EventMaxAge,int,event.maxAge
+VC-EventMaxAgeEnabled.Vester.ps1,EventMaxAgeEnabled,Enables Event cleanup and enforces the max age defined in EventMaxAge,vcenter.EventMaxAgeEnabled,bool,event.maxAgeEnabled
